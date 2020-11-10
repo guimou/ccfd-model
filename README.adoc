@@ -1,0 +1,11 @@
+= CCFD Model
+
+Build model with:
+
+[source,bash]
+----
+s2i build https://github.com/guimou/ccfd-model.git seldonio/seldon-core-s2i-python3:1.2.2 ccfd-model
+----
+
+Change version (here 1.2.2) depending on your Seldon Core version.
+
